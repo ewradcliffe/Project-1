@@ -1,8 +1,13 @@
+/*Import of Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
 /*Asterisk Wildcard selector to override default browser styles*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 /*General styles*/
@@ -10,11 +15,16 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "Lora", serif;
 }
 
 /*Header*/
 header {
     background-color: crimson;
+}
+
+#logo {
+    font-family: "Explora", serif;
 }
 
 /*Main Content*/
