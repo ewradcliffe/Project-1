@@ -8,7 +8,6 @@
     margin: 0;
     box-sizing: border-box;
 
-}
 
 /*General styles*/
 body {
@@ -23,8 +22,20 @@ header {
     background-color: crimson;
 }
 
+/*Logo*/
 #logo {
     font-family: "Explora", serif;
+}
+
+/*dropdown menu*/
+
+.menu {
+    display: none;
+}
+
+/*dropdown menu display on off*/
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 /*Main Content*/
