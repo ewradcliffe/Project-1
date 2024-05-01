@@ -1,0 +1,21 @@
+/*Asterisk Wildcard selector to override default browser styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+header {
+    background-color: crimson;
+}
+
+/*Main Content*/
+main {
+    background-color: paleturquoise;
+}
+
+/*Footer*/
+footer {
+    background-color: crimson;
+}
