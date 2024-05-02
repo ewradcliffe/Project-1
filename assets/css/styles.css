@@ -86,3 +86,9 @@ main {
 footer {
     background-color:  rgb(34, 212, 129);;
 }
+
+#social-media {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
