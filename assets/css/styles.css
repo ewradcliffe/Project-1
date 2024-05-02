@@ -55,14 +55,16 @@ header {
 
 
 /*dropdown menu display on/off*/
+
+/*NB - quite unsure if I've set this correctly. Needed to set margin in a weird way to make it work*/
 #nav-toggle:checked~nav {
-    position: absolute;
     display: flex;
     justify-content: flex-end;
     background-color: rgb(34, 212, 129);
-    font-size: xx-large;
+    font-size: x-large;
     line-height: 2;
     padding: 5%;
+    margin-left: 60%;
     border: 1px solid black;
 }
 
@@ -77,6 +79,7 @@ main {
     background-color: rgb(255, 245, 231);
     /*Make main content expand to take up unused space*/
     flex: 1 0 auto;
+    margin-top: 12%;
 }
 
 /*Footer*/
