@@ -27,6 +27,10 @@ header {
     font-family: "Explora", serif;
 }
 
+#nav-toggle {
+    display: none;
+}
+
 /*dropdown menu*/
 
 .menu {
